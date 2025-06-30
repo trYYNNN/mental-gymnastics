@@ -2,159 +2,169 @@
 tags:
   - interview-prep
 ---
-## Index 
+
+## Index
+
 - [[#1.0 Why this roadmap?|1.0 Why this roadmap?]]
 - [[#2.0 Data Structures and Algorithms|2.0 Data Structures and Algorithms]]
-	- [[#2.0 Data Structures and Algorithms#2.1 Pre-requisites|2.1 Pre-requisites]]
-	- [[#2.0 Data Structures and Algorithms#2.2 Arrays|2.2 Arrays]]
-		- [[#2.2 Arrays#2.2.1 Traversal and Basic Manipulation|2.2.1 Traversal and Basic Manipulation]]
-		- [[#2.2 Arrays#2.2.2 N-Pointers|2.2.2 N-Pointers]]
-		- [[#2.2 Arrays#2.2.3 Sliding Window|2.2.3 Sliding Window]]
-		- [[#2.2 Arrays#2.2.4 Prefix Sum and Difference Arrays|2.2.4 Prefix Sum and Difference Arrays]]
-		- [[#2.2 Arrays#2.2.5 Max and Min Subarray Patterns|2.2.5 Max and Min Subarray Patterns]]
-		- [[#2.2 Arrays#2.2.6 Sorting + Partitioning Patterns|2.2.6 Sorting + Partitioning Patterns]]
-		- [[#2.2 Arrays#2.2.7 Binary Search on Arrays|2.2.7 Binary Search on Arrays]]
-		- [[#2.2 Arrays#2.2.8 Rearrangement, Duplicates, Cyclic Sort|2.2.8 Rearrangement, Duplicates, Cyclic Sort]]
-		- [[#2.2 Arrays#2.2.9 Advanced Matrix Handling (2D Arrays)|2.2.9 Advanced Matrix Handling (2D Arrays)]]
-		- [[#2.2 Arrays#2.2.10 Special Mentions|2.2.10 Special Mentions]]
-	- [[#2.0 Data Structures and Algorithms#2.3 Linked Lists|2.3 Linked Lists]]
-		- [[#2.3 Linked Lists#2.3.1 Basics and Traversal|2.3.1 Basics and Traversal]]
-		- [[#2.3 Linked Lists#2.3.2 Two Pointers (Fast & Slow)|2.3.2 Two Pointers (Fast & Slow)]]
-		- [[#2.3 Linked Lists#2.3.3 Reversal Techniques|2.3.3 Reversal Techniques]]
-		- [[#2.3 Linked Lists#2.3.4 Merge and Sort Operations|2.3.4 Merge and Sort Operations]]
-		- [[#2.3 Linked Lists#2.3.5 Deletion and Manipulation|2.3.5 Deletion and Manipulation]]
-		- [[#2.3 Linked Lists#2.3.6 Cloning and Deep Copies|2.3.6 Cloning and Deep Copies]]
-		- [[#2.3 Linked Lists#2.3.7 Advanced Structural Problems|2.3.7 Advanced Structural Problems]]
-		- [[#2.3 Linked Lists#2.3.8 Circular and Doubly Linked Lists (Special Cases)|2.3.8 Circular and Doubly Linked Lists (Special Cases)]]
-		- [[#2.3 Linked Lists#2.3.9 Design Applications|2.3.9 Design Applications]]
-		- [[#2.3 Linked Lists#2.3.10 Special Mentions|2.3.10 Special Mentions]]
-		- [[#2.3 Linked Lists#2.3.11 Math-Based Linked List Operations|2.3.11 Math-Based Linked List Operations]]
-	- [[#2.0 Data Structures and Algorithms#2.4 Stacks and Queues|2.4 Stacks and Queues]]
-		- [[#2.4 Stacks and Queues#2.4.1 Stack Fundamentals|2.4.1 Stack Fundamentals]]
-		- [[#2.4 Stacks and Queues#2.4.2 Validity Checking Patterns|2.4.2 Validity Checking Patterns]]
-		- [[#2.4 Stacks and Queues#2.4.3 Monotonic Stack Patterns|2.4.3 Monotonic Stack Patterns]]
-		- [[#2.4 Stacks and Queues#2.4.4 Min/Max Stack Variants|2.4.4 Min/Max Stack Variants]]
-		- [[#2.4 Stacks and Queues#2.4.5 Backtracking and Undo Stack|2.4.5 Backtracking and Undo Stack]]
-		- [[#2.4 Stacks and Queues#2.4.6 Queue Fundamentals|2.4.6 Queue Fundamentals]]
-		- [[#2.4 Stacks and Queues#2.4.7 Monotonic Queue & Sliding Window|2.4.7 Monotonic Queue & Sliding Window]]
-		- [[#2.4 Stacks and Queues#2.4.8 Design Problems with Queue|2.4.8 Design Problems with Queue]]
-		- [[#2.4 Stacks and Queues#2.4.9 Priority Queue (Heap-backed)|2.4.9 Priority Queue (Heap-backed)]]
-		- [[#2.4 Stacks and Queues#2.4.10 Special Mentions|2.4.10 Special Mentions]]
-	- [[#2.0 Data Structures and Algorithms#2.5 Trees and Binary Search|2.5 Trees and Binary Search]]
-		- [[#2.5 Trees and Binary Search#2.5.1 Tree Fundamentals and Traversals|2.5.1 Tree Fundamentals and Traversals]]
-		- [[#2.5 Trees and Binary Search#2.5.2 Binary Search Tree (BST) Patterns|2.5.2 Binary Search Tree (BST) Patterns]]
-		- [[#2.5 Trees and Binary Search#2.5.3 Binary Tree Recursion Patterns|2.5.3 Binary Tree Recursion Patterns]]
-		- [[#2.5 Trees and Binary Search#2.5.4 Tree Construction and Serialization|2.5.4 Tree Construction and Serialization]]
-		- [[#2.5 Trees and Binary Search#2.5.5 Binary Search Patterns (On Arrays)|2.5.5 Binary Search Patterns (On Arrays)]]
-		- [[#2.5 Trees and Binary Search#2.5.6 Binary Search on Monotonic Functions|2.5.6 Binary Search on Monotonic Functions]]
-		- [[#2.5 Trees and Binary Search#2.5.7 Segment Trees and Advanced Structures|2.5.7 Segment Trees and Advanced Structures]]
-		- [[#2.5 Trees and Binary Search#2.5.8 N-ary Trees and Generalized Trees|2.5.8 N-ary Trees and Generalized Trees]]
-		- [[#2.5 Trees and Binary Search#2.5.9 Tree to Graph Transitions|2.5.9 Tree to Graph Transitions]]
-		- [[#2.5 Trees and Binary Search#2.5.10 Special Mentions|2.5.10 Special Mentions]]
-	- [[#2.0 Data Structures and Algorithms#2.6 Graphs|2.6 Graphs]]
-		- [[#2.6 Graphs#2.6.1 Graph Traversals|2.6.1 Graph Traversals]]
-		- [[#2.6 Graphs#2.6.2 Directed Graphs and Topological Sort|2.6.2 Directed Graphs and Topological Sort]]
-		- [[#2.6 Graphs#2.6.3 Undirected Graphs and Cycle Detection|2.6.3 Undirected Graphs and Cycle Detection]]
-		- [[#2.6 Graphs#2.6.4 Shortest Path Algorithms|2.6.4 Shortest Path Algorithms]]
-		- [[#2.6 Graphs#2.6.5 MST and Spanning Trees|2.6.5 MST and Spanning Trees]]
-		- [[#2.6 Graphs#2.6.6 Grid-Based Graphs|2.6.6 Grid-Based Graphs]]
-		- [[#2.6 Graphs#2.6.7 Backtracking and Constraint Solving on Graphs|2.6.7 Backtracking and Constraint Solving on Graphs]]
-		- [[#2.6 Graphs#2.6.8 Advanced Graph Topics|2.6.8 Advanced Graph Topics]]
-	- [[#2.0 Data Structures and Algorithms#2.7 Heaps and Greedy|2.7 Heaps and Greedy]]
-		- [[#2.7 Heaps and Greedy#2.7.1 Priority Queue Essentials|2.7.1 Priority Queue Essentials]]
-		- [[#2.7 Heaps and Greedy#2.7.2 Top-K Patterns|2.7.2 Top-K Patterns]]
-		- [[#2.7 Heaps and Greedy#2.7.3 Greedy Interval Scheduling|2.7.3 Greedy Interval Scheduling]]
-		- [[#2.7 Heaps and Greedy#2.7.4 Greedy with Sorting and Decision Making|2.7.4 Greedy with Sorting and Decision Making]]
-		- [[#2.7 Heaps and Greedy#2.7.5 Greedy Proof Techniques|2.7.5 Greedy Proof Techniques]]
-	- [[#2.0 Data Structures and Algorithms#2.8 Dynamic Programming|2.8 Dynamic Programming]]
-		- [[#2.8 Dynamic Programming#2.8.1 1D DP|2.8.1 1D DP]]
-		- [[#2.8 Dynamic Programming#2.8.2 2D DP|2.8.2 2D DP]]
-		- [[#2.8 Dynamic Programming#2.8.3 DP with States|2.8.3 DP with States]]
-		- [[#2.8 Dynamic Programming#2.8.4 DP with Choices and Backtracking|2.8.4 DP with Choices and Backtracking]]
-		- [[#2.8 Dynamic Programming#2.8.5 Bitmask DP|2.8.5 Bitmask DP]]
-		- [[#2.8 Dynamic Programming#2.8.6 Optimized DP Patterns|2.8.6 Optimized DP Patterns]]
-	- [[#2.0 Data Structures and Algorithms#2.9 Tries and String Matching|2.9 Tries and String Matching]]
-		- [[#2.9 Tries and String Matching#2.9.1 Trie Basics|2.9.1 Trie Basics]]
-		- [[#2.9 Tries and String Matching#2.9.2 Compressed & Suffix Tries|2.9.2 Compressed & Suffix Tries]]
-		- [[#2.9 Tries and String Matching#2.9.3 String Matching Algorithms|2.9.3 String Matching Algorithms]]
-		- [[#2.9 Tries and String Matching#2.9.4 Word Dictionary & Variants|2.9.4 Word Dictionary & Variants]]
-		- [[#2.9 Tries and String Matching#2.9.5 Regex and Wildcard Parsing|2.9.5 Regex and Wildcard Parsing]]
-	- [[#2.0 Data Structures and Algorithms#2.10 Bit Manipulation|2.10 Bit Manipulation]]
-		- [[#2.10 Bit Manipulation#2.10.1 Bitwise Fundamentals|2.10.1 Bitwise Fundamentals]]
-		- [[#2.10 Bit Manipulation#2.10.2 XOR Patterns|2.10.2 XOR Patterns]]
-		- [[#2.10 Bit Manipulation#2.10.3 Bitmasking|2.10.3 Bitmasking]]
-		- [[#2.10 Bit Manipulation#2.10.4 Advanced Bit Tricks|2.10.4 Advanced Bit Tricks]]
-	- [[#2.0 Data Structures and Algorithms#2.11 Math and Number Theory|2.11 Math and Number Theory]]
-		- [[#2.11 Math and Number Theory#2.11.1 Number Properties|2.11.1 Number Properties]]
-		- [[#2.11 Math and Number Theory#2.11.2 Modular Arithmetic|2.11.2 Modular Arithmetic]]
-		- [[#2.11 Math and Number Theory#2.11.3 GCD / LCM and Euclid’s Algorithm|2.11.3 GCD / LCM and Euclid’s Algorithm]]
-		- [[#2.11 Math and Number Theory#2.11.4 Combinatorics|2.11.4 Combinatorics]]
-		- [[#2.11 Math and Number Theory#2.11.5 Base Conversions and Encodings|2.11.5 Base Conversions and Encodings]]
-	- [[#2.0 Data Structures and Algorithms#2.12 Special Techniques and Misc Patterns|2.12 Special Techniques and Misc Patterns]]
-		- [[#2.12 Special Techniques and Misc Patterns#2.12.1 Merge Intervals and Sweep Line|2.12.1 Merge Intervals and Sweep Line]]
-		- [[#2.12 Special Techniques and Misc Patterns#2.12.2 Binary Search on Answer|2.12.2 Binary Search on Answer]]
-		- [[#2.12 Special Techniques and Misc Patterns#2.12.3 Sliding Window + Monotonic|2.12.3 Sliding Window + Monotonic]]
-		- [[#2.12 Special Techniques and Misc Patterns#2.12.4 Reservoir Sampling & Randomized|2.12.4 Reservoir Sampling & Randomized]]
-		- [[#2.12 Special Techniques and Misc Patterns#2.12.5 Simulation and State Machines|2.12.5 Simulation and State Machines]]
-		- [[#2.12 Special Techniques and Misc Patterns#2.12.6 Design + Iterator Patterns|2.12.6 Design + Iterator Patterns]]
+  - [[#2.1 Pre-requisites|2.1 Pre-requisites]]
+  - [[#2.2 Arrays|2.2 Arrays]]
+    - [[#2.2.1 Traversal and Basic Manipulation]]
+    - [[#2.2.2 N-Pointers]]
+    - [[#2.2.3 Sliding Window]]
+    - [[#2.2.4 Prefix Sum and Difference Arrays]]
+    - [[#2.2.5 Max and Min Subarray Patterns]]
+    - [[#2.2.6 Sorting + Partitioning Patterns]]
+    - [[#2.2.7 Binary Search on Arrays]]
+    - [[#2.2.8 Rearrangement, Duplicates, Cyclic Sort]]
+    - [[#2.2.9 Advanced Matrix Handling (2D Arrays)]]
+    - [[#2.2.10 Special Mentions]]
+  - [[#2.3 Linked Lists|2.3 Linked Lists]]
+    - [[#2.3.1 Basics and Traversal]]
+    - [[#2.3.2 Two Pointers (Fast & Slow)]]
+    - [[#2.3.3 Reversal Techniques]]
+    - [[#2.3.4 Merge and Sort Operations]]
+    - [[#2.3.5 Deletion and Manipulation]]
+    - [[#2.3.6 Cloning and Deep Copies]]
+    - [[#2.3.7 Advanced Structural Problems]]
+    - [[#2.3.8 Circular and Doubly Linked Lists (Special Cases)]]
+    - [[#2.3.9 Design Applications]]
+    - [[#2.3.10 Special Mentions]]
+    - [[#2.3.11 Math-Based Linked List Operations]]
+  - [[#2.4 Stacks and Queues|2.4 Stacks and Queues]]
+    - [[#2.4.1 Stack Fundamentals]]
+    - [[#2.4.2 Validity Checking Patterns]]
+    - [[#2.4.3 Monotonic Stack Patterns]]
+    - [[#2.4.4 Min/Max Stack Variants]]
+    - [[#2.4.5 Backtracking and Undo Stack]]
+    - [[#2.4.6 Queue Fundamentals]]
+    - [[#2.4.7 Monotonic Queue & Sliding Window]]
+    - [[#2.4.8 Design Problems with Queue]]
+    - [[#2.4.9 Priority Queue (Heap-backed)]]
+    - [[#2.4.10 Special Mentions]]
+  - [[#2.5 Trees and Binary Search|2.5 Trees and Binary Search]]
+    - [[#2.5.1 Tree Fundamentals and Traversals]]
+    - [[#2.5.2 Binary Search Tree (BST) Patterns]]
+    - [[#2.5.3 Binary Tree Recursion Patterns]]
+    - [[#2.5.4 Tree Construction and Serialization]]
+    - [[#2.5.5 Binary Search Patterns (On Arrays)]]
+    - [[#2.5.6 Binary Search on Monotonic Functions]]
+    - [[#2.5.7 Segment Trees and Advanced Structures]]
+    - [[#2.5.8 N-ary Trees and Generalized Trees]]
+    - [[#2.5.9 Tree to Graph Transitions]]
+    - [[#2.5.10 Special Mentions]]
+  - [[#2.6 Graphs|2.6 Graphs]]
+    - [[#2.6.1 Graph Traversals]]
+    - [[#2.6.2 Directed Graphs and Topological Sort]]
+    - [[#2.6.3 Undirected Graphs and Cycle Detection]]
+    - [[#2.6.4 Shortest Path Algorithms]]
+    - [[#2.6.5 MST and Spanning Trees]]
+    - [[#2.6.6 Grid-Based Graphs]]
+    - [[#2.6.7 Backtracking and Constraint Solving on Graphs]]
+    - [[#2.6.8 Advanced Graph Topics]]
+  - [[#2.7 Heaps and Greedy|2.7 Heaps and Greedy]]
+    - [[#2.7.1 Priority Queue Essentials]]
+    - [[#2.7.2 Top-K Patterns]]
+    - [[#2.7.3 Greedy Interval Scheduling]]
+    - [[#2.7.4 Greedy with Sorting and Decision Making]]
+    - [[#2.7.5 Greedy Proof Techniques]]
+  - [[#2.8 Dynamic Programming|2.8 Dynamic Programming]]
+    - [[#2.8.1 1D DP]]
+    - [[#2.8.2 2D DP]]
+    - [[#2.8.3 DP with States]]
+    - [[#2.8.4 DP with Choices and Backtracking]]
+    - [[#2.8.5 Bitmask DP]]
+    - [[#2.8.6 Optimized DP Patterns]]
+  - [[#2.9 Tries and String Matching|2.9 Tries and String Matching]]
+    - [[#2.9.1 Trie Basics]]
+    - [[#2.9.2 Compressed & Suffix Tries]]
+    - [[#2.9.3 String Matching Algorithms]]
+    - [[#2.9.4 Word Dictionary & Variants]]
+    - [[#2.9.5 Regex and Wildcard Parsing]]
+  - [[#2.10 Bit Manipulation|2.10 Bit Manipulation]]
+    - [[#2.10.1 Bitwise Fundamentals]]
+    - [[#2.10.2 XOR Patterns]]
+    - [[#2.10.3 Bitmasking]]
+    - [[#2.10.4 Advanced Bit Tricks]]
+  - [[#2.11 Math and Number Theory|2.11 Math and Number Theory]]
+    - [[#2.11.1 Number Properties]]
+    - [[#2.11.2 Modular Arithmetic]]
+    - [[#2.11.3 GCD / LCM and Euclid’s Algorithm]]
+    - [[#2.11.4 Combinatorics]]
+    - [[#2.11.5 Base Conversions and Encodings]]
+  - [[#2.12 Special Techniques and Misc Patterns|2.12 Special Techniques and Misc Patterns]]
+    - [[#2.12.1 Merge Intervals and Sweep Line]]
+    - [[#2.12.2 Binary Search on Answer]]
+    - [[#2.12.3 Sliding Window + Monotonic]]
+    - [[#2.12.4 Reservoir Sampling & Randomized]]
+    - [[#2.12.5 Simulation and State Machines]]
+    - [[#2.12.6 Design + Iterator Patterns]]
 
 ---
-### 1.0 Why this roadmap? 
+
+### 1.0 Why this roadmap?
 
 This is a noob’s overview of how he prepared — because sometimes, keeping it simple, silly (KISS), is exactly what even the pros need.
 
->[!info]- 
->Words of Honour by the Author : No Pressure guys 
+> [!info]-
+> Words of Honour by the Author : No Pressure guys
 
+---
 
-----
-### 2.0 Data Structures and Algorithms 
+### 2.0 Data Structures and Algorithms
 
-#### 2.1 Pre-requisites 
+#### 2.1 Pre-requisites
 
 - Complexity Analysis (Time and Space)
 - Modular Arithmetic
 - Bit-Manipulation (not that deep)
 - Recursion (BackTracking, Divide and Conquet)
-- Sorting Algorithms 
+- Sorting Algorithms
 - Binary Search (has an entire set of problems of its own)
 - Prefix Sums
 
---- 
+---
 
 #### 2.2 Arrays
 
 Foundation for most algorithmic patterns — used for traversal, windowing, prefix computation, in-place manipulation, and searching/sorting optimisations.
-##### 2.2.1 Traversal and Basic Manipulation 
 
-1. Iteration Patterns 
-2. In-place overwrites 
+##### 2.2.1 Traversal and Basic Manipulation
+
+1. Iteration Patterns
+2. In-place overwrites
 3. Avoid extra space
-##### 2.2.2 N-Pointers 
+
+##### 2.2.2 N-Pointers
 
 1. Opposite Ends
-2. Same Direction 
-3. Kth smallest sum/ distance 
-##### 2.2.3 Sliding Window 
+2. Same Direction
+3. Kth smallest sum/ distance
 
-1. Fixed Size 
-2. Variable Size 
-3. Monotonic Queue 
-##### 2.2.4 Prefix Sum and Difference Arrays 
+##### 2.2.3 Sliding Window
+
+1. Fixed Size
+2. Variable Size
+3. Monotonic Queue
+
+##### 2.2.4 Prefix Sum and Difference Arrays
 
 1. Prefix sum for subarray range
 2. Prefix hash (char counts)
 3. Difference array for range update tricks
-##### 2.2.5 Max and Min Subarray Patterns 
 
-1. Local vs Global Subarrays 
-2. Restarting Subarrays 
-3. Track best-so far 
+##### 2.2.5 Max and Min Subarray Patterns
+
+1. Local vs Global Subarrays
+2. Restarting Subarrays
+3. Track best-so far
+
 ##### 2.2.6 Sorting + Partitioning Patterns
 
 1. Dutch National Flag
 2. Wiggle sort
 3. QuickSelect / Partition around pivot
+
 ##### 2.2.7 Binary Search on Arrays
 
 1. Binary search in rotated array
@@ -172,70 +182,83 @@ Foundation for most algorithmic patterns — used for traversal, windowing, pref
 2. Rotation in-place
 3. Search in sorted matrix
 
-##### 2.2.10 Special Mentions 
+##### 2.2.10 Special Mentions
 
-1. Kadane's Algo 
-2. Merge Intervals 
-3. Rainwater Trapping 
-4. Inversions 
-5. Next Permutations 
+1. Kadane's Algo
+2. Merge Intervals
+3. Rainwater Trapping
+4. Inversions
+5. Next Permutations
 6. Moore's Voting (Majority element)
 7. Floyd's Algorithm (Cycle Detection)
+
 ---
+
 #### 2.3 Linked Lists
 
 Fundamental pointer-based structure. Core to recursion, in-place manipulation, and memory management patterns.
+
 ##### 2.3.1 Basics and Traversal
 
 1. Single and Doubly Linked Lists
 2. Iterative vs Recursive Traversal
 3. Handling nulls and one-node cases
+
 ##### 2.3.2 Two Pointers (Fast & Slow)
 
 1. Cycle detection (Floyd’s algorithm)
 2. Finding midpoint
 3. Detecting palindrome in-place
+
 ##### 2.3.3 Reversal Techniques
 
 1. Full reversal (iterative and recursive)
 2. Partial reversal between `m` and `n`
 3. Reverse in groups of K nodes
+
 ##### 2.3.4 Merge and Sort Operations
 
 1. Merge two sorted lists
 2. Merge K sorted lists (using heap)
 3. Sort linked list (merge sort)
+
 ##### 2.3.5 Deletion and Manipulation
 
 1. Delete N-th node from end
 2. Delete given node (without head)
 3. Remove duplicates
+
 ##### 2.3.6 Cloning and Deep Copies
 
 1. Clone list with random pointer
 2. HashMap-based vs O(1) interleaving method
+
 ##### 2.3.7 Advanced Structural Problems
 
 1. Intersection of two lists
 2. Detect start of cycle
 3. Flatten multi-level linked list
 4. Reorder list (alternate merge)
+
 ##### 2.3.8 Circular and Doubly Linked Lists (Special Cases)
 
 1. Circular loop detection and breaking
 2. DLL insert/delete patterns
 3. Applications in LRU/Deque
+
 ##### 2.3.9 Design Applications
 
 1. LRU Cache (DLL + HashMap)
 2. Browser history (bi-directional navigation)
 3. Music/Carousel queue rotation
+
 ##### 2.3.10 Special Mentions
 
 1. Floyd’s Cycle Detection
 2. Recursive reversal variations
 3. In-place manipulation with pointer gymnastics
 4. Dummy node patterns
+
 ##### 2.3.11 Math-Based Linked List Operations
 
 1. Add two numbers (forward and reverse order)
@@ -243,7 +266,9 @@ Fundamental pointer-based structure. Core to recursion, in-place manipulation, a
 3. Multiply two numbers (simulating digit-by-digit)
 4. Convert linked list to number and back
 5. Edge handling: carry, leading zeros, unequal lengths
+
 ---
+
 #### 2.4 Stacks and Queues
 
 Used to maintain temporal or order-based state. Common in parsing, monotonic operations, and backtracking patterns.
@@ -311,7 +336,9 @@ Used to maintain temporal or order-based state. Common in parsing, monotonic ope
 3. Largest rectangle in histogram
 4. Implement circular deque
 5. Wait time problems (stock span, daily temps)
+
 ---
+
 #### 2.5 Trees and Binary Search
 
 Recursive hierarchical structures used in traversal-based problems, dynamic state management, and ordered data lookup. Binary Search leverages sorted structure or monotonic properties for O(log n) operations.
@@ -406,7 +433,7 @@ Graphs represent relationships and connectivity — foundational for traversal, 
 
 1. Dijkstra (min-heap based)
 2. Bellman-Ford (negative weights)
-3. A* Search (heuristics)
+3. A\* Search (heuristics)
 
 ##### 2.6.5 MST and Spanning Trees
 
@@ -653,8 +680,3 @@ Power tools and edge-case solvers that don't fit in a single category.
 1. Nested Iterator
 2. Zigzag iterator
 3. Iterator for BST
-
-
-
-
-
