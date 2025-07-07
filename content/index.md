@@ -22,40 +22,20 @@ This isn’t another generic LeetCode grind plan. It’s my **battle-tested prep
 
 ---
 
-## 🚀 Why Quartz?
-
-I used [Quartz](https://github.com/jackyzha0/quartz) to host this as an open, Obsidian-compatible notebook — so you and I can explore it like a digital textbook, without the bloat.
-
-You get instant search, TOC, clean navigation, and Obsidian vault parity.
-
----
-
-## 👋 Who is this for?
-
-- 📘 Just starting DSA prep and feeling overwhelmed
-- 🔁 Restarting with a structured, deep-dive mindset
-- 🧠 Curious how someone else organized the grind
-
----
-
-> 🧠 _“Amateurs practice until they get it right. Professionals practice until they can’t get it wrong.”_
-
----
-
 ## 🔗 Core Topics
 
 Jump directly to any section:
 
-- [[Arrays]]
-- [[LinkedLists]]
-- [[StacksAndQueues]]
-- [[TreesAndBinarySearch]]
-- [[Graphs]]
-- [[HeapsAndGreedy]]
-- [[DynamicProgramming]]
-- [[TriesAndStringMatching]]
-- [[BitManipulationAndNumberTheory]]
-- [[SpecialPatterns]]
+- [[3.0 Arrays|Arrays]]
+- [[4.0 Linked-Lists|LinkedLists]]
+- [[5.0 Stacks and Queues|Stacks&Queues]]
+- [[6.0 Trees and Binary Search|Trees&BinarySearch]]
+- [[7.0 Graphs|GraphTheory]]
+- [[8.0 Heaps and Greedy|Heaps&Greedy]]
+- [[9.0 Dynamic Programming|Dynamic Programming]]
+- [[10.0 Tries and String Matching|Tries&StringMatching]]
+- [[11.0 Bit Manipulation and Number Theory|BitManipulation&NumberTheory]]
+- [[12.0 Special Techniques and Misc Patterns|MiscTechniques]]
 
 ---
 
