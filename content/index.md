@@ -7,9 +7,11 @@ description: Personal DSA preparation roadmap — simple, structured, and FAANG-
 
 Welcome to my personal **Data Structures & Algorithms roadmap**.
 
-This is not another generic LeetCode grind plan. It’s my **battle-tested prep log** — structured for clarity, simplicity, and consistency. Built to go from 0 → FAANG with no fluff.
+This isn’t another generic LeetCode grind plan. It’s my **battle-tested prep log** — structured for clarity, simplicity, and consistency. Built to go from 0 → FAANG with no fluff.
 
-## This BS is chatgpt generated
+## ⚠️ This entire BS is ChatGPT-assisted
+
+---
 
 ## 🗺 What’s Inside
 
@@ -22,20 +24,39 @@ This is not another generic LeetCode grind plan. It’s my **battle-tested prep 
 
 ## 🚀 Why Quartz?
 
-I used [Quartz](https://github.com/jackyzha0/quartz) to host this as an open, Obsidian-compatible notebook — so you and I can explore it like a digital textbook, but without the bloat.
+I used [Quartz](https://github.com/jackyzha0/quartz) to host this as an open, Obsidian-compatible notebook — so you and I can explore it like a digital textbook, without the bloat.
+
+You get instant search, TOC, clean navigation, and Obsidian vault parity.
 
 ---
 
 ## 👋 Who is this for?
 
-- If you’re just starting your DSA prep and feel overwhelmed.
-- If you’re restarting and want to go deep, not wide.
-- Or if you’re just curious how someone else structures their grind.
+- 📘 Just starting DSA prep and feeling overwhelmed
+- 🔁 Restarting with a structured, deep-dive mindset
+- 🧠 Curious how someone else organized the grind
 
 ---
 
-> 🧠 “Amateurs practice until they get it right. Professionals practice until they can’t get it wrong.”
+> 🧠 _“Amateurs practice until they get it right. Professionals practice until they can’t get it wrong.”_
 
 ---
 
-Head over to the sidebar and start exploring 👇
+## 🔗 Core Topics
+
+Jump directly to any section:
+
+- [[Arrays]]
+- [[LinkedLists]]
+- [[StacksAndQueues]]
+- [[TreesAndBinarySearch]]
+- [[Graphs]]
+- [[HeapsAndGreedy]]
+- [[DynamicProgramming]]
+- [[TriesAndStringMatching]]
+- [[BitManipulationAndNumberTheory]]
+- [[SpecialPatterns]]
+
+---
+
+Now go hit the sidebar and start drilling 👇
